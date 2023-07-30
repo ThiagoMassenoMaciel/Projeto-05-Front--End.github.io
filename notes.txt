@@ -1,0 +1,16 @@
+[Fontes Usadas](https://fonts.google.com/share?selection.family=Mulish:wght@600;900)
+font-family: 'Mulish', sans-serif;
+
+começei a fazer o projeto 11h30 
+                  agora é 13h
+
+                  n olhei o video
+
+
+ERRO : n consegui padronizar o texto completo dentro do card da row de baixo
+
+
+
+Este aqui é o versão 1 algums erros de espaçamento concertados na 
+
+versão 2

@@ -1,0 +1,23 @@
+[Fontes utilizadas](https://fonts.google.com/specimen/Mulish)
+
+Resolução 
+
+
+demorei 1h30 para concluir este projeto acompanhando o video e tentando relembrar o conteúdo 
+
+
+em vez de centralizar apenas o main com o place-content : center
+  abstraia para a caixa de maior hierarquia (maior nivel )
+  e a essa caixa atribua um centralizador de todo o seu conteudo 
+
+              DivPai {
+                display: grid;
+                justify-content : center;
+              }
+Vai colocar todo conteúdo ( espaço + filhos ) para o centro da DivPai
+
+
+
+::::Apendido
+    novo jeito de centralizar ::: usando grip
+    justify-content: center

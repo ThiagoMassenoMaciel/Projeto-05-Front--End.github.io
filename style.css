@@ -1,0 +1,123 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-size: 62.5%; /*   10px  */
+}
+
+body{
+  background-color: #121214;
+
+  font-size: 1.6rem;
+  font-family: 'Mulish', sans-serif;
+
+
+}
+
+header{
+  margin: 7.2rem 9.5rem 6.3rem;
+}
+
+header > h1{
+  color:#02799D;
+
+  font-size: 5.9rem;
+  font-weight: 900;
+
+  margin-bottom: 0.8rem
+
+}
+
+header > p{
+  color: #E1E1E6;
+
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+
+main{
+  display: grid;
+
+  place-content: center;
+  /*grid-template-columns: repeat(3 , 36.8rem);   gostei deste estilo*/
+
+  /*Em vez de se preocupar com o tamanho de cada coluna poderia colocar a medida padrão de 1fr*
+  grid-template-columns: repeat(3 , 1fr);
+  */
+  grid-template-columns: repeat(3 , 37rem);
+  grid-template-rows: repeat(2 , 44.82rem);
+
+  gap: 4.4rem 6.0rem;
+
+  align-items: flex-start;
+
+  width: max-content; /*Sem este eu n conseguiria o tamaho ideal da card para caber o p , h1 , img */
+
+  margin: 7.6rem auto 11.4rem;
+
+  padding: 0;
+}
+
+.card{
+/*Uma possibilidade Para fazer com que a imagem caiba na div card é ocultar os pedaços que trnsborda o size do card
+  overflow : hidden;
+  */
+  background-color: #202024;
+
+  border-radius: 0.8rem;
+  border: 0.2rem solid #323238;
+
+  overflow: hidden;
+  /*padding: 0 3.2rem 3.2rem ;*/
+}
+
+.card img{
+  width: fit-content;
+
+  border-radius: 4px 4px 0 0;
+}
+
+.card h2{
+  color: #E1E1E6;
+
+  font-size: 3.6rem;
+  font-weight: 900;
+
+  padding: 1rem 3.2rem 0 ;
+
+}
+
+.card p{
+  color: #C4C4CC;
+  
+  font-size: 1.8rem;
+  font-weight: 600;
+
+  padding: 2.4rem 3.2rem;
+}
+
+footer{
+  position: fixed;
+  top: 1rem;
+  right: 2rem;
+}
+
+footer > a{
+
+  margin: 3rem auto;
+  padding: 2rem;
+
+  color: #fff;
+  background-color:#02799D;
+
+  font-size: 2.0rem;
+  font-weight: bold;
+  text-decoration: none;
+  
+  /*border: 0.4rem solid #fff;*/
+  border-radius:  0  0 2rem 2rem;
+
+}
